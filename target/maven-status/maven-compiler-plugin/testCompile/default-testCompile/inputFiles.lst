@@ -1,2 +1,7 @@
-D:\Developer\WorkSpace\example-cucumber-1\src\test\java\com\example\cucumber1\AppTest.java
+D:\Developer\WorkSpace\example-cucumber-1\src\test\java\com\example\framework\OpenBrowserFirefox.java
+D:\Developer\WorkSpace\example-cucumber-1\src\test\java\com\example\framework\OpenBrowserChrome.java
+D:\Developer\WorkSpace\example-cucumber-1\src\test\java\com\example\framework\EmulationDevice.java
+D:\Developer\WorkSpace\example-cucumber-1\src\test\java\com\example\framework\OpenBrowserInternetExplorer.java
+D:\Developer\WorkSpace\example-cucumber-1\src\test\java\com\example\framework\SelectorBrowser.java
 D:\Developer\WorkSpace\example-cucumber-1\src\test\java\com\example\cucumber1\googletest.java
+D:\Developer\WorkSpace\example-cucumber-1\src\test\java\com\example\cucumber1\AppTest.java
