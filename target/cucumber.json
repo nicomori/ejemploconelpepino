@@ -1,0 +1,220 @@
+[
+  {
+    "id": "testing-example-with-cucumber-version:-0.0.1",
+    "description": "",
+    "name": "Testing example with cucumber Version: 0.0.1",
+    "keyword": "Feature",
+    "line": 1,
+    "elements": [
+      {
+        "after": [
+          {
+            "result": {
+              "duration": 1340707164,
+              "status": "passed"
+            },
+            "match": {
+              "location": "googletest.cleanUp()"
+            }
+          }
+        ],
+        "id": "testing-example-with-cucumber-version:-0.0.1;search-something-in-google-and-check-if-the-result-it\u0027s-ok.;;2",
+        "description": "",
+        "name": "Search something in google and check if the result it\u0027s ok.",
+        "keyword": "Scenario Outline",
+        "line": 13,
+        "steps": [
+          {
+            "result": {
+              "duration": 7921197706,
+              "status": "passed"
+            },
+            "name": "\"https://www.google.com.ar/\" is open in \"chrome\" and set the emulation to device \"Google Nexus 5\"",
+            "keyword": "Given ",
+            "line": 5,
+            "match": {
+              "arguments": [
+                {
+                  "val": "https://www.google.com.ar/",
+                  "offset": 1
+                },
+                {
+                  "val": "chrome",
+                  "offset": 41
+                },
+                {
+                  "val": "Google Nexus 5",
+                  "offset": 82
+                }
+              ],
+              "location": "googletest.openbrowser(String,String,String)"
+            },
+            "matchedColumns": [
+              0,
+              1,
+              3
+            ]
+          },
+          {
+            "result": {
+              "duration": 186641225,
+              "status": "passed"
+            },
+            "name": "I type \"java\" in the search field",
+            "keyword": "When ",
+            "line": 6,
+            "match": {
+              "arguments": [
+                {
+                  "val": "java",
+                  "offset": 8
+                }
+              ],
+              "location": "googletest.enterValue(String)"
+            },
+            "matchedColumns": [
+              2
+            ]
+          },
+          {
+            "result": {
+              "duration": 1292749831,
+              "status": "passed"
+            },
+            "name": "I click the search button",
+            "keyword": "And ",
+            "line": 7,
+            "match": {
+              "location": "googletest.googleSearch()"
+            }
+          },
+          {
+            "result": {
+              "duration": 68267626,
+              "status": "passed"
+            },
+            "name": "I see the results for Java",
+            "keyword": "Then ",
+            "line": 8,
+            "match": {
+              "location": "googletest.checkJavaDowlnoad()"
+            }
+          }
+        ],
+        "type": "scenario"
+      },
+      {
+        "after": [
+          {
+            "result": {
+              "duration": 53335506,
+              "status": "passed"
+            },
+            "match": {
+              "location": "googletest.cleanUp()"
+            }
+          }
+        ],
+        "id": "testing-example-with-cucumber-version:-0.0.1;search-something-in-google-and-check-if-the-result-it\u0027s-ok.;;3",
+        "description": "",
+        "name": "Search something in google and check if the result it\u0027s ok.",
+        "keyword": "Scenario Outline",
+        "line": 17,
+        "steps": [
+          {
+            "result": {
+              "duration": 15841333817,
+              "status": "passed"
+            },
+            "name": "\"https://www.google.com.ar/\" is open in \"firefox\" and set the emulation to device \"\"",
+            "keyword": "Given ",
+            "line": 5,
+            "match": {
+              "arguments": [
+                {
+                  "val": "https://www.google.com.ar/",
+                  "offset": 1
+                },
+                {
+                  "val": "firefox",
+                  "offset": 41
+                },
+                {
+                  "val": "",
+                  "offset": 83
+                }
+              ],
+              "location": "googletest.openbrowser(String,String,String)"
+            },
+            "matchedColumns": [
+              0,
+              1,
+              3
+            ]
+          },
+          {
+            "result": {
+              "duration": 617680854,
+              "status": "passed"
+            },
+            "name": "I type \"compu\" in the search field",
+            "keyword": "When ",
+            "line": 6,
+            "match": {
+              "arguments": [
+                {
+                  "val": "compu",
+                  "offset": 8
+                }
+              ],
+              "location": "googletest.enterValue(String)"
+            },
+            "matchedColumns": [
+              2
+            ]
+          },
+          {
+            "result": {
+              "duration": 225464981,
+              "status": "passed"
+            },
+            "name": "I click the search button",
+            "keyword": "And ",
+            "line": 7,
+            "match": {
+              "location": "googletest.googleSearch()"
+            }
+          },
+          {
+            "result": {
+              "duration": 173478021,
+              "status": "passed"
+            },
+            "name": "I see the results for Java",
+            "keyword": "Then ",
+            "line": 8,
+            "match": {
+              "location": "googletest.checkJavaDowlnoad()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "comments": [
+          {
+            "value": "#| https://www.google.com.ar/ \t| chrome\t| kiwi\t\t\t\t| Apple iPhone 5\t\t\t|",
+            "line": 14
+          },
+          {
+            "value": "#| https://www.google.com.ar/ \t| chrome\t| compu\t\t\t\t| Apple iPhone 6\t\t\t|",
+            "line": 15
+          },
+          {
+            "value": "#| https://www.google.com.ar/ \t| chrome\t| compu\t\t\t\t||",
+            "line": 16
+          }
+        ]
+      }
+    ],
+    "uri": "com/example/cucumber1/testgoogle.feature"
+  }
+]
