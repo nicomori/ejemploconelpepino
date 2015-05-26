@@ -1,0 +1,1273 @@
+[
+  {
+    "id": "testing-example-with-cucumber-version:-0.0.1",
+    "description": "",
+    "name": "Testing example with cucumber Version: 0.0.1",
+    "keyword": "Feature",
+    "line": 1,
+    "elements": [
+      {
+        "after": [
+          {
+            "result": {
+              "duration": 1124523545,
+              "status": "passed"
+            },
+            "match": {
+              "location": "googletest.cleanUp()"
+            }
+          }
+        ],
+        "id": "testing-example-with-cucumber-version:-0.0.1;search-something-in-google-and-check-if-the-result-it\u0027s-ok.;;2",
+        "description": "",
+        "name": "Search something in google and check if the result it\u0027s ok.",
+        "keyword": "Scenario Outline",
+        "line": 13,
+        "steps": [
+          {
+            "result": {
+              "duration": 15468702034,
+              "status": "passed"
+            },
+            "name": "\"https://www.google.com.ar/\" is open in \"chrome\" and set the emulation to device \"Google Nexus 5\"",
+            "keyword": "Given ",
+            "line": 5,
+            "match": {
+              "arguments": [
+                {
+                  "val": "https://www.google.com.ar/",
+                  "offset": 1
+                },
+                {
+                  "val": "chrome",
+                  "offset": 41
+                },
+                {
+                  "val": "Google Nexus 5",
+                  "offset": 82
+                }
+              ],
+              "location": "googletest.openbrowser(String,String,String)"
+            },
+            "matchedColumns": [
+              0,
+              1,
+              3
+            ]
+          },
+          {
+            "result": {
+              "duration": 156775756,
+              "status": "passed"
+            },
+            "name": "I type \"java\" in the search field",
+            "keyword": "When ",
+            "line": 6,
+            "match": {
+              "arguments": [
+                {
+                  "val": "java",
+                  "offset": 8
+                }
+              ],
+              "location": "googletest.enterValue(String)"
+            },
+            "matchedColumns": [
+              2
+            ]
+          },
+          {
+            "result": {
+              "duration": 1274382512,
+              "status": "passed"
+            },
+            "name": "I click the search button",
+            "keyword": "And ",
+            "line": 7,
+            "match": {
+              "location": "googletest.googleSearch()"
+            }
+          },
+          {
+            "result": {
+              "duration": 66188771,
+              "status": "passed"
+            },
+            "name": "I see the results for Java",
+            "keyword": "Then ",
+            "line": 8,
+            "match": {
+              "location": "googletest.checkJavaDowlnoad()"
+            }
+          }
+        ],
+        "type": "scenario"
+      },
+      {
+        "after": [
+          {
+            "result": {
+              "duration": 67547991,
+              "status": "passed"
+            },
+            "match": {
+              "location": "googletest.cleanUp()"
+            }
+          }
+        ],
+        "id": "testing-example-with-cucumber-version:-0.0.1;search-something-in-google-and-check-if-the-result-it\u0027s-ok.;;3",
+        "description": "",
+        "name": "Search something in google and check if the result it\u0027s ok.",
+        "keyword": "Scenario Outline",
+        "line": 14,
+        "steps": [
+          {
+            "result": {
+              "duration": 8313462840,
+              "status": "passed"
+            },
+            "name": "\"https://www.google.com.ar/\" is open in \"chrome\" and set the emulation to device \"Apple iPhone 5\"",
+            "keyword": "Given ",
+            "line": 5,
+            "match": {
+              "arguments": [
+                {
+                  "val": "https://www.google.com.ar/",
+                  "offset": 1
+                },
+                {
+                  "val": "chrome",
+                  "offset": 41
+                },
+                {
+                  "val": "Apple iPhone 5",
+                  "offset": 82
+                }
+              ],
+              "location": "googletest.openbrowser(String,String,String)"
+            },
+            "matchedColumns": [
+              0,
+              1,
+              3
+            ]
+          },
+          {
+            "result": {
+              "duration": 156155056,
+              "status": "passed"
+            },
+            "name": "I type \"kiwi\" in the search field",
+            "keyword": "When ",
+            "line": 6,
+            "match": {
+              "arguments": [
+                {
+                  "val": "kiwi",
+                  "offset": 8
+                }
+              ],
+              "location": "googletest.enterValue(String)"
+            },
+            "matchedColumns": [
+              2
+            ]
+          },
+          {
+            "result": {
+              "duration": 1398925351,
+              "status": "passed"
+            },
+            "name": "I click the search button",
+            "keyword": "And ",
+            "line": 7,
+            "match": {
+              "location": "googletest.googleSearch()"
+            }
+          },
+          {
+            "result": {
+              "duration": 58131157,
+              "status": "passed"
+            },
+            "name": "I see the results for Java",
+            "keyword": "Then ",
+            "line": 8,
+            "match": {
+              "location": "googletest.checkJavaDowlnoad()"
+            }
+          }
+        ],
+        "type": "scenario"
+      },
+      {
+        "after": [
+          {
+            "result": {
+              "duration": 1111818066,
+              "status": "passed"
+            },
+            "match": {
+              "location": "googletest.cleanUp()"
+            }
+          }
+        ],
+        "id": "testing-example-with-cucumber-version:-0.0.1;search-something-in-google-and-check-if-the-result-it\u0027s-ok.;;4",
+        "description": "",
+        "name": "Search something in google and check if the result it\u0027s ok.",
+        "keyword": "Scenario Outline",
+        "line": 15,
+        "steps": [
+          {
+            "result": {
+              "duration": 7827872988,
+              "status": "passed"
+            },
+            "name": "\"https://www.google.com.ar/\" is open in \"chrome\" and set the emulation to device \"Apple iPhone 6\"",
+            "keyword": "Given ",
+            "line": 5,
+            "match": {
+              "arguments": [
+                {
+                  "val": "https://www.google.com.ar/",
+                  "offset": 1
+                },
+                {
+                  "val": "chrome",
+                  "offset": 41
+                },
+                {
+                  "val": "Apple iPhone 6",
+                  "offset": 82
+                }
+              ],
+              "location": "googletest.openbrowser(String,String,String)"
+            },
+            "matchedColumns": [
+              0,
+              1,
+              3
+            ]
+          },
+          {
+            "result": {
+              "duration": 149972270,
+              "status": "passed"
+            },
+            "name": "I type \"compu\" in the search field",
+            "keyword": "When ",
+            "line": 6,
+            "match": {
+              "arguments": [
+                {
+                  "val": "compu",
+                  "offset": 8
+                }
+              ],
+              "location": "googletest.enterValue(String)"
+            },
+            "matchedColumns": [
+              2
+            ]
+          },
+          {
+            "result": {
+              "duration": 3762692855,
+              "status": "passed"
+            },
+            "name": "I click the search button",
+            "keyword": "And ",
+            "line": 7,
+            "match": {
+              "location": "googletest.googleSearch()"
+            }
+          },
+          {
+            "result": {
+              "duration": 107711261,
+              "status": "passed"
+            },
+            "name": "I see the results for Java",
+            "keyword": "Then ",
+            "line": 8,
+            "match": {
+              "location": "googletest.checkJavaDowlnoad()"
+            }
+          }
+        ],
+        "type": "scenario"
+      },
+      {
+        "after": [
+          {
+            "result": {
+              "duration": 1234867036,
+              "status": "passed"
+            },
+            "match": {
+              "location": "googletest.cleanUp()"
+            }
+          }
+        ],
+        "id": "testing-example-with-cucumber-version:-0.0.1;search-something-in-google-and-check-if-the-result-it\u0027s-ok.;;5",
+        "description": "",
+        "name": "Search something in google and check if the result it\u0027s ok.",
+        "keyword": "Scenario Outline",
+        "line": 16,
+        "steps": [
+          {
+            "result": {
+              "duration": 12092596462,
+              "status": "passed"
+            },
+            "name": "\"https://www.google.com.ar/\" is open in \"chrome\" and set the emulation to device \"\"",
+            "keyword": "Given ",
+            "line": 5,
+            "match": {
+              "arguments": [
+                {
+                  "val": "https://www.google.com.ar/",
+                  "offset": 1
+                },
+                {
+                  "val": "chrome",
+                  "offset": 41
+                },
+                {
+                  "val": "",
+                  "offset": 82
+                }
+              ],
+              "location": "googletest.openbrowser(String,String,String)"
+            },
+            "matchedColumns": [
+              0,
+              1,
+              3
+            ]
+          },
+          {
+            "result": {
+              "duration": 140579657,
+              "status": "passed"
+            },
+            "name": "I type \"compu\" in the search field",
+            "keyword": "When ",
+            "line": 6,
+            "match": {
+              "arguments": [
+                {
+                  "val": "compu",
+                  "offset": 8
+                }
+              ],
+              "location": "googletest.enterValue(String)"
+            },
+            "matchedColumns": [
+              2
+            ]
+          },
+          {
+            "result": {
+              "duration": 76019404,
+              "status": "passed"
+            },
+            "name": "I click the search button",
+            "keyword": "And ",
+            "line": 7,
+            "match": {
+              "location": "googletest.googleSearch()"
+            }
+          },
+          {
+            "result": {
+              "duration": 50884314,
+              "status": "passed"
+            },
+            "name": "I see the results for Java",
+            "keyword": "Then ",
+            "line": 8,
+            "match": {
+              "location": "googletest.checkJavaDowlnoad()"
+            }
+          }
+        ],
+        "type": "scenario"
+      },
+      {
+        "after": [
+          {
+            "result": {
+              "duration": 138027888,
+              "status": "passed"
+            },
+            "match": {
+              "location": "googletest.cleanUp()"
+            }
+          }
+        ],
+        "id": "testing-example-with-cucumber-version:-0.0.1;search-something-in-google-and-check-if-the-result-it\u0027s-ok.;;6",
+        "description": "",
+        "name": "Search something in google and check if the result it\u0027s ok.",
+        "keyword": "Scenario Outline",
+        "line": 17,
+        "steps": [
+          {
+            "result": {
+              "duration": 33051313303,
+              "status": "passed"
+            },
+            "name": "\"https://www.google.com.ar/\" is open in \"firefox\" and set the emulation to device \"\"",
+            "keyword": "Given ",
+            "line": 5,
+            "match": {
+              "arguments": [
+                {
+                  "val": "https://www.google.com.ar/",
+                  "offset": 1
+                },
+                {
+                  "val": "firefox",
+                  "offset": 41
+                },
+                {
+                  "val": "",
+                  "offset": 83
+                }
+              ],
+              "location": "googletest.openbrowser(String,String,String)"
+            },
+            "matchedColumns": [
+              0,
+              1,
+              3
+            ]
+          },
+          {
+            "result": {
+              "duration": 662678364,
+              "status": "passed"
+            },
+            "name": "I type \"compu\" in the search field",
+            "keyword": "When ",
+            "line": 6,
+            "match": {
+              "arguments": [
+                {
+                  "val": "compu",
+                  "offset": 8
+                }
+              ],
+              "location": "googletest.enterValue(String)"
+            },
+            "matchedColumns": [
+              2
+            ]
+          },
+          {
+            "result": {
+              "duration": 254674857,
+              "status": "passed"
+            },
+            "name": "I click the search button",
+            "keyword": "And ",
+            "line": 7,
+            "match": {
+              "location": "googletest.googleSearch()"
+            }
+          },
+          {
+            "result": {
+              "duration": 207310310,
+              "status": "passed"
+            },
+            "name": "I see the results for Java",
+            "keyword": "Then ",
+            "line": 8,
+            "match": {
+              "location": "googletest.checkJavaDowlnoad()"
+            }
+          }
+        ],
+        "type": "scenario"
+      },
+      {
+        "after": [
+          {
+            "result": {
+              "duration": 3894220218,
+              "status": "passed"
+            },
+            "match": {
+              "location": "googletest.cleanUp()"
+            }
+          }
+        ],
+        "id": "testing-example-with-cucumber-version:-0.0.1;search-something-in-google-and-check-if-the-result-it\u0027s-ok.;;7",
+        "description": "",
+        "name": "Search something in google and check if the result it\u0027s ok.",
+        "keyword": "Scenario Outline",
+        "line": 18,
+        "steps": [
+          {
+            "result": {
+              "duration": 7995049995,
+              "status": "passed"
+            },
+            "name": "\"https://www.google.com.ar/\" is open in \"chrome\" and set the emulation to device \"Apple iPhone 6 Plus\"",
+            "keyword": "Given ",
+            "line": 5,
+            "match": {
+              "arguments": [
+                {
+                  "val": "https://www.google.com.ar/",
+                  "offset": 1
+                },
+                {
+                  "val": "chrome",
+                  "offset": 41
+                },
+                {
+                  "val": "Apple iPhone 6 Plus",
+                  "offset": 82
+                }
+              ],
+              "location": "googletest.openbrowser(String,String,String)"
+            },
+            "matchedColumns": [
+              0,
+              1,
+              3
+            ]
+          },
+          {
+            "result": {
+              "duration": 136889937,
+              "status": "passed"
+            },
+            "name": "I type \"kiwi\" in the search field",
+            "keyword": "When ",
+            "line": 6,
+            "match": {
+              "arguments": [
+                {
+                  "val": "kiwi",
+                  "offset": 8
+                }
+              ],
+              "location": "googletest.enterValue(String)"
+            },
+            "matchedColumns": [
+              2
+            ]
+          },
+          {
+            "result": {
+              "duration": 1630299303,
+              "status": "passed"
+            },
+            "name": "I click the search button",
+            "keyword": "And ",
+            "line": 7,
+            "match": {
+              "location": "googletest.googleSearch()"
+            }
+          },
+          {
+            "result": {
+              "duration": 58723122,
+              "status": "passed"
+            },
+            "name": "I see the results for Java",
+            "keyword": "Then ",
+            "line": 8,
+            "match": {
+              "location": "googletest.checkJavaDowlnoad()"
+            }
+          }
+        ],
+        "type": "scenario"
+      },
+      {
+        "after": [
+          {
+            "result": {
+              "duration": 1307360516,
+              "status": "passed"
+            },
+            "match": {
+              "location": "googletest.cleanUp()"
+            }
+          }
+        ],
+        "id": "testing-example-with-cucumber-version:-0.0.1;search-something-in-google-and-check-if-the-result-it\u0027s-ok.;;8",
+        "description": "",
+        "name": "Search something in google and check if the result it\u0027s ok.",
+        "keyword": "Scenario Outline",
+        "line": 19,
+        "steps": [
+          {
+            "result": {
+              "duration": 8098347385,
+              "status": "passed"
+            },
+            "name": "\"https://www.google.com.ar/\" is open in \"chrome\" and set the emulation to device \"Google Nexus 10\"",
+            "keyword": "Given ",
+            "line": 5,
+            "match": {
+              "arguments": [
+                {
+                  "val": "https://www.google.com.ar/",
+                  "offset": 1
+                },
+                {
+                  "val": "chrome",
+                  "offset": 41
+                },
+                {
+                  "val": "Google Nexus 10",
+                  "offset": 82
+                }
+              ],
+              "location": "googletest.openbrowser(String,String,String)"
+            },
+            "matchedColumns": [
+              0,
+              1,
+              3
+            ]
+          },
+          {
+            "result": {
+              "duration": 137866555,
+              "status": "passed"
+            },
+            "name": "I type \"kiwi\" in the search field",
+            "keyword": "When ",
+            "line": 6,
+            "match": {
+              "arguments": [
+                {
+                  "val": "kiwi",
+                  "offset": 8
+                }
+              ],
+              "location": "googletest.enterValue(String)"
+            },
+            "matchedColumns": [
+              2
+            ]
+          },
+          {
+            "result": {
+              "duration": 80800687,
+              "status": "passed"
+            },
+            "name": "I click the search button",
+            "keyword": "And ",
+            "line": 7,
+            "match": {
+              "location": "googletest.googleSearch()"
+            }
+          },
+          {
+            "result": {
+              "duration": 48810385,
+              "status": "passed"
+            },
+            "name": "I see the results for Java",
+            "keyword": "Then ",
+            "line": 8,
+            "match": {
+              "location": "googletest.checkJavaDowlnoad()"
+            }
+          }
+        ],
+        "type": "scenario"
+      },
+      {
+        "after": [
+          {
+            "result": {
+              "duration": 1347141185,
+              "status": "passed"
+            },
+            "match": {
+              "location": "googletest.cleanUp()"
+            }
+          }
+        ],
+        "id": "testing-example-with-cucumber-version:-0.0.1;search-something-in-google-and-check-if-the-result-it\u0027s-ok.;;9",
+        "description": "",
+        "name": "Search something in google and check if the result it\u0027s ok.",
+        "keyword": "Scenario Outline",
+        "line": 20,
+        "steps": [
+          {
+            "result": {
+              "duration": 7768200342,
+              "status": "passed"
+            },
+            "name": "\"https://www.google.com.ar/\" is open in \"chrome\" and set the emulation to device \"Google Nexus 4\"",
+            "keyword": "Given ",
+            "line": 5,
+            "match": {
+              "arguments": [
+                {
+                  "val": "https://www.google.com.ar/",
+                  "offset": 1
+                },
+                {
+                  "val": "chrome",
+                  "offset": 41
+                },
+                {
+                  "val": "Google Nexus 4",
+                  "offset": 82
+                }
+              ],
+              "location": "googletest.openbrowser(String,String,String)"
+            },
+            "matchedColumns": [
+              0,
+              1,
+              3
+            ]
+          },
+          {
+            "result": {
+              "duration": 142840371,
+              "status": "passed"
+            },
+            "name": "I type \"kiwi\" in the search field",
+            "keyword": "When ",
+            "line": 6,
+            "match": {
+              "arguments": [
+                {
+                  "val": "kiwi",
+                  "offset": 8
+                }
+              ],
+              "location": "googletest.enterValue(String)"
+            },
+            "matchedColumns": [
+              2
+            ]
+          },
+          {
+            "result": {
+              "duration": 1019091880,
+              "status": "passed"
+            },
+            "name": "I click the search button",
+            "keyword": "And ",
+            "line": 7,
+            "match": {
+              "location": "googletest.googleSearch()"
+            }
+          },
+          {
+            "result": {
+              "duration": 64708039,
+              "status": "passed"
+            },
+            "name": "I see the results for Java",
+            "keyword": "Then ",
+            "line": 8,
+            "match": {
+              "location": "googletest.checkJavaDowlnoad()"
+            }
+          }
+        ],
+        "type": "scenario"
+      },
+      {
+        "after": [
+          {
+            "result": {
+              "duration": 1168818661,
+              "status": "passed"
+            },
+            "match": {
+              "location": "googletest.cleanUp()"
+            }
+          }
+        ],
+        "id": "testing-example-with-cucumber-version:-0.0.1;search-something-in-google-and-check-if-the-result-it\u0027s-ok.;;10",
+        "description": "",
+        "name": "Search something in google and check if the result it\u0027s ok.",
+        "keyword": "Scenario Outline",
+        "line": 21,
+        "steps": [
+          {
+            "result": {
+              "duration": 7780174280,
+              "status": "passed"
+            },
+            "name": "\"https://www.google.com.ar/\" is open in \"chrome\" and set the emulation to device \"Google Nexus 5\"",
+            "keyword": "Given ",
+            "line": 5,
+            "match": {
+              "arguments": [
+                {
+                  "val": "https://www.google.com.ar/",
+                  "offset": 1
+                },
+                {
+                  "val": "chrome",
+                  "offset": 41
+                },
+                {
+                  "val": "Google Nexus 5",
+                  "offset": 82
+                }
+              ],
+              "location": "googletest.openbrowser(String,String,String)"
+            },
+            "matchedColumns": [
+              0,
+              1,
+              3
+            ]
+          },
+          {
+            "result": {
+              "duration": 163317743,
+              "status": "passed"
+            },
+            "name": "I type \"compu\" in the search field",
+            "keyword": "When ",
+            "line": 6,
+            "match": {
+              "arguments": [
+                {
+                  "val": "compu",
+                  "offset": 8
+                }
+              ],
+              "location": "googletest.enterValue(String)"
+            },
+            "matchedColumns": [
+              2
+            ]
+          },
+          {
+            "result": {
+              "duration": 2209247536,
+              "status": "passed"
+            },
+            "name": "I click the search button",
+            "keyword": "And ",
+            "line": 7,
+            "match": {
+              "location": "googletest.googleSearch()"
+            }
+          },
+          {
+            "result": {
+              "duration": 57369650,
+              "status": "passed"
+            },
+            "name": "I see the results for Java",
+            "keyword": "Then ",
+            "line": 8,
+            "match": {
+              "location": "googletest.checkJavaDowlnoad()"
+            }
+          }
+        ],
+        "type": "scenario"
+      },
+      {
+        "after": [
+          {
+            "result": {
+              "duration": 1412923134,
+              "status": "passed"
+            },
+            "match": {
+              "location": "googletest.cleanUp()"
+            }
+          }
+        ],
+        "id": "testing-example-with-cucumber-version:-0.0.1;search-something-in-google-and-check-if-the-result-it\u0027s-ok.;;11",
+        "description": "",
+        "name": "Search something in google and check if the result it\u0027s ok.",
+        "keyword": "Scenario Outline",
+        "line": 22,
+        "steps": [
+          {
+            "result": {
+              "duration": 8120948358,
+              "status": "passed"
+            },
+            "name": "\"https://www.google.com.ar/\" is open in \"chrome\" and set the emulation to device \"Google Nexus 7\"",
+            "keyword": "Given ",
+            "line": 5,
+            "match": {
+              "arguments": [
+                {
+                  "val": "https://www.google.com.ar/",
+                  "offset": 1
+                },
+                {
+                  "val": "chrome",
+                  "offset": 41
+                },
+                {
+                  "val": "Google Nexus 7",
+                  "offset": 82
+                }
+              ],
+              "location": "googletest.openbrowser(String,String,String)"
+            },
+            "matchedColumns": [
+              0,
+              1,
+              3
+            ]
+          },
+          {
+            "result": {
+              "duration": 181686705,
+              "status": "passed"
+            },
+            "name": "I type \"kiwi\" in the search field",
+            "keyword": "When ",
+            "line": 6,
+            "match": {
+              "arguments": [
+                {
+                  "val": "kiwi",
+                  "offset": 8
+                }
+              ],
+              "location": "googletest.enterValue(String)"
+            },
+            "matchedColumns": [
+              2
+            ]
+          },
+          {
+            "result": {
+              "duration": 81594216,
+              "status": "passed"
+            },
+            "name": "I click the search button",
+            "keyword": "And ",
+            "line": 7,
+            "match": {
+              "location": "googletest.googleSearch()"
+            }
+          },
+          {
+            "result": {
+              "duration": 50434388,
+              "status": "passed"
+            },
+            "name": "I see the results for Java",
+            "keyword": "Then ",
+            "line": 8,
+            "match": {
+              "location": "googletest.checkJavaDowlnoad()"
+            }
+          }
+        ],
+        "type": "scenario"
+      },
+      {
+        "after": [
+          {
+            "result": {
+              "duration": 1100919680,
+              "status": "passed"
+            },
+            "match": {
+              "location": "googletest.cleanUp()"
+            }
+          }
+        ],
+        "id": "testing-example-with-cucumber-version:-0.0.1;search-something-in-google-and-check-if-the-result-it\u0027s-ok.;;12",
+        "description": "",
+        "name": "Search something in google and check if the result it\u0027s ok.",
+        "keyword": "Scenario Outline",
+        "line": 23,
+        "steps": [
+          {
+            "result": {
+              "duration": 8174373767,
+              "status": "passed"
+            },
+            "name": "\"https://www.google.com.ar/\" is open in \"chrome\" and set the emulation to device \"Samsung Galaxy Note 3\"",
+            "keyword": "Given ",
+            "line": 5,
+            "match": {
+              "arguments": [
+                {
+                  "val": "https://www.google.com.ar/",
+                  "offset": 1
+                },
+                {
+                  "val": "chrome",
+                  "offset": 41
+                },
+                {
+                  "val": "Samsung Galaxy Note 3",
+                  "offset": 82
+                }
+              ],
+              "location": "googletest.openbrowser(String,String,String)"
+            },
+            "matchedColumns": [
+              0,
+              1,
+              3
+            ]
+          },
+          {
+            "result": {
+              "duration": 146496838,
+              "status": "passed"
+            },
+            "name": "I type \"compu\" in the search field",
+            "keyword": "When ",
+            "line": 6,
+            "match": {
+              "arguments": [
+                {
+                  "val": "compu",
+                  "offset": 8
+                }
+              ],
+              "location": "googletest.enterValue(String)"
+            },
+            "matchedColumns": [
+              2
+            ]
+          },
+          {
+            "result": {
+              "duration": 2425759158,
+              "status": "passed"
+            },
+            "name": "I click the search button",
+            "keyword": "And ",
+            "line": 7,
+            "match": {
+              "location": "googletest.googleSearch()"
+            }
+          },
+          {
+            "result": {
+              "duration": 59154574,
+              "status": "passed"
+            },
+            "name": "I see the results for Java",
+            "keyword": "Then ",
+            "line": 8,
+            "match": {
+              "location": "googletest.checkJavaDowlnoad()"
+            }
+          }
+        ],
+        "type": "scenario"
+      },
+      {
+        "after": [
+          {
+            "result": {
+              "duration": 1134999099,
+              "status": "passed"
+            },
+            "match": {
+              "location": "googletest.cleanUp()"
+            }
+          }
+        ],
+        "id": "testing-example-with-cucumber-version:-0.0.1;search-something-in-google-and-check-if-the-result-it\u0027s-ok.;;13",
+        "description": "",
+        "name": "Search something in google and check if the result it\u0027s ok.",
+        "keyword": "Scenario Outline",
+        "line": 24,
+        "steps": [
+          {
+            "result": {
+              "duration": 7997411284,
+              "status": "passed"
+            },
+            "name": "\"https://www.google.com.ar/\" is open in \"chrome\" and set the emulation to device \"Samsung Galaxy Note II\"",
+            "keyword": "Given ",
+            "line": 5,
+            "match": {
+              "arguments": [
+                {
+                  "val": "https://www.google.com.ar/",
+                  "offset": 1
+                },
+                {
+                  "val": "chrome",
+                  "offset": 41
+                },
+                {
+                  "val": "Samsung Galaxy Note II",
+                  "offset": 82
+                }
+              ],
+              "location": "googletest.openbrowser(String,String,String)"
+            },
+            "matchedColumns": [
+              0,
+              1,
+              3
+            ]
+          },
+          {
+            "result": {
+              "duration": 148456644,
+              "status": "passed"
+            },
+            "name": "I type \"compu\" in the search field",
+            "keyword": "When ",
+            "line": 6,
+            "match": {
+              "arguments": [
+                {
+                  "val": "compu",
+                  "offset": 8
+                }
+              ],
+              "location": "googletest.enterValue(String)"
+            },
+            "matchedColumns": [
+              2
+            ]
+          },
+          {
+            "result": {
+              "duration": 2008935297,
+              "status": "passed"
+            },
+            "name": "I click the search button",
+            "keyword": "And ",
+            "line": 7,
+            "match": {
+              "location": "googletest.googleSearch()"
+            }
+          },
+          {
+            "result": {
+              "duration": 56078986,
+              "status": "passed"
+            },
+            "name": "I see the results for Java",
+            "keyword": "Then ",
+            "line": 8,
+            "match": {
+              "location": "googletest.checkJavaDowlnoad()"
+            }
+          }
+        ],
+        "type": "scenario"
+      },
+      {
+        "after": [
+          {
+            "result": {
+              "duration": 600477759,
+              "status": "passed"
+            },
+            "match": {
+              "location": "googletest.cleanUp()"
+            }
+          }
+        ],
+        "id": "testing-example-with-cucumber-version:-0.0.1;search-something-in-google-and-check-if-the-result-it\u0027s-ok.;;14",
+        "description": "",
+        "name": "Search something in google and check if the result it\u0027s ok.",
+        "keyword": "Scenario Outline",
+        "line": 25,
+        "steps": [
+          {
+            "result": {
+              "duration": 7931992642,
+              "status": "passed"
+            },
+            "name": "\"https://www.google.com.ar/\" is open in \"chrome\" and set the emulation to device \"Samsung Galaxy S4\"",
+            "keyword": "Given ",
+            "line": 5,
+            "match": {
+              "arguments": [
+                {
+                  "val": "https://www.google.com.ar/",
+                  "offset": 1
+                },
+                {
+                  "val": "chrome",
+                  "offset": 41
+                },
+                {
+                  "val": "Samsung Galaxy S4",
+                  "offset": 82
+                }
+              ],
+              "location": "googletest.openbrowser(String,String,String)"
+            },
+            "matchedColumns": [
+              0,
+              1,
+              3
+            ]
+          },
+          {
+            "result": {
+              "duration": 146581815,
+              "status": "passed"
+            },
+            "name": "I type \"compu\" in the search field",
+            "keyword": "When ",
+            "line": 6,
+            "match": {
+              "arguments": [
+                {
+                  "val": "compu",
+                  "offset": 8
+                }
+              ],
+              "location": "googletest.enterValue(String)"
+            },
+            "matchedColumns": [
+              2
+            ]
+          },
+          {
+            "result": {
+              "duration": 3677869109,
+              "status": "passed"
+            },
+            "name": "I click the search button",
+            "keyword": "And ",
+            "line": 7,
+            "match": {
+              "location": "googletest.googleSearch()"
+            }
+          },
+          {
+            "result": {
+              "duration": 93892462,
+              "status": "passed"
+            },
+            "name": "I see the results for Java",
+            "keyword": "Then ",
+            "line": 8,
+            "match": {
+              "location": "googletest.checkJavaDowlnoad()"
+            }
+          }
+        ],
+        "type": "scenario"
+      }
+    ],
+    "uri": "com/example/cucumber1/testgoogle.feature"
+  }
+]
