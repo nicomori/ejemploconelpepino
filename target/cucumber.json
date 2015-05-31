@@ -10,7 +10,7 @@
         "after": [
           {
             "result": {
-              "duration": 1124523545,
+              "duration": 1178842301,
               "status": "passed"
             },
             "match": {
@@ -26,7 +26,7 @@
         "steps": [
           {
             "result": {
-              "duration": 15468702034,
+              "duration": 7067269123,
               "status": "passed"
             },
             "name": "\"https://www.google.com.ar/\" is open in \"chrome\" and set the emulation to device \"Google Nexus 5\"",
@@ -57,7 +57,7 @@
           },
           {
             "result": {
-              "duration": 156775756,
+              "duration": 129446939,
               "status": "passed"
             },
             "name": "I type \"java\" in the search field",
@@ -78,7 +78,7 @@
           },
           {
             "result": {
-              "duration": 1274382512,
+              "duration": 673532391,
               "status": "passed"
             },
             "name": "I click the search button",
@@ -90,7 +90,7 @@
           },
           {
             "result": {
-              "duration": 66188771,
+              "duration": 66166458,
               "status": "passed"
             },
             "name": "I see the results for Java",
@@ -107,7 +107,7 @@
         "after": [
           {
             "result": {
-              "duration": 67547991,
+              "duration": 1164700193,
               "status": "passed"
             },
             "match": {
@@ -123,7 +123,7 @@
         "steps": [
           {
             "result": {
-              "duration": 8313462840,
+              "duration": 6058963421,
               "status": "passed"
             },
             "name": "\"https://www.google.com.ar/\" is open in \"chrome\" and set the emulation to device \"Apple iPhone 5\"",
@@ -154,7 +154,7 @@
           },
           {
             "result": {
-              "duration": 156155056,
+              "duration": 121529592,
               "status": "passed"
             },
             "name": "I type \"kiwi\" in the search field",
@@ -175,7 +175,7 @@
           },
           {
             "result": {
-              "duration": 1398925351,
+              "duration": 771471277,
               "status": "passed"
             },
             "name": "I click the search button",
@@ -187,7 +187,7 @@
           },
           {
             "result": {
-              "duration": 58131157,
+              "duration": 55932941,
               "status": "passed"
             },
             "name": "I see the results for Java",
@@ -204,7 +204,7 @@
         "after": [
           {
             "result": {
-              "duration": 1111818066,
+              "duration": 1152666943,
               "status": "passed"
             },
             "match": {
@@ -220,7 +220,7 @@
         "steps": [
           {
             "result": {
-              "duration": 7827872988,
+              "duration": 6389629449,
               "status": "passed"
             },
             "name": "\"https://www.google.com.ar/\" is open in \"chrome\" and set the emulation to device \"Apple iPhone 6\"",
@@ -251,7 +251,7 @@
           },
           {
             "result": {
-              "duration": 149972270,
+              "duration": 131584122,
               "status": "passed"
             },
             "name": "I type \"compu\" in the search field",
@@ -272,7 +272,7 @@
           },
           {
             "result": {
-              "duration": 3762692855,
+              "duration": 787462380,
               "status": "passed"
             },
             "name": "I click the search button",
@@ -284,7 +284,7 @@
           },
           {
             "result": {
-              "duration": 107711261,
+              "duration": 55185789,
               "status": "passed"
             },
             "name": "I see the results for Java",
@@ -301,7 +301,7 @@
         "after": [
           {
             "result": {
-              "duration": 1234867036,
+              "duration": 1161089643,
               "status": "passed"
             },
             "match": {
@@ -317,7 +317,7 @@
         "steps": [
           {
             "result": {
-              "duration": 12092596462,
+              "duration": 7085348146,
               "status": "passed"
             },
             "name": "\"https://www.google.com.ar/\" is open in \"chrome\" and set the emulation to device \"\"",
@@ -348,7 +348,7 @@
           },
           {
             "result": {
-              "duration": 140579657,
+              "duration": 135992729,
               "status": "passed"
             },
             "name": "I type \"compu\" in the search field",
@@ -369,7 +369,7 @@
           },
           {
             "result": {
-              "duration": 76019404,
+              "duration": 71318522,
               "status": "passed"
             },
             "name": "I click the search button",
@@ -381,7 +381,7 @@
           },
           {
             "result": {
-              "duration": 50884314,
+              "duration": 47713859,
               "status": "passed"
             },
             "name": "I see the results for Java",
@@ -398,7 +398,7 @@
         "after": [
           {
             "result": {
-              "duration": 138027888,
+              "duration": 185306396,
               "status": "passed"
             },
             "match": {
@@ -414,7 +414,7 @@
         "steps": [
           {
             "result": {
-              "duration": 33051313303,
+              "duration": 15135200830,
               "status": "passed"
             },
             "name": "\"https://www.google.com.ar/\" is open in \"firefox\" and set the emulation to device \"\"",
@@ -445,7 +445,7 @@
           },
           {
             "result": {
-              "duration": 662678364,
+              "duration": 548321227,
               "status": "passed"
             },
             "name": "I type \"compu\" in the search field",
@@ -466,7 +466,7 @@
           },
           {
             "result": {
-              "duration": 254674857,
+              "duration": 180893274,
               "status": "passed"
             },
             "name": "I click the search button",
@@ -478,7 +478,7 @@
           },
           {
             "result": {
-              "duration": 207310310,
+              "duration": 134392920,
               "status": "passed"
             },
             "name": "I see the results for Java",
@@ -495,7 +495,7 @@
         "after": [
           {
             "result": {
-              "duration": 3894220218,
+              "duration": 1133429423,
               "status": "passed"
             },
             "match": {
@@ -511,7 +511,7 @@
         "steps": [
           {
             "result": {
-              "duration": 7995049995,
+              "duration": 6353142985,
               "status": "passed"
             },
             "name": "\"https://www.google.com.ar/\" is open in \"chrome\" and set the emulation to device \"Apple iPhone 6 Plus\"",
@@ -542,7 +542,7 @@
           },
           {
             "result": {
-              "duration": 136889937,
+              "duration": 124074425,
               "status": "passed"
             },
             "name": "I type \"kiwi\" in the search field",
@@ -563,7 +563,7 @@
           },
           {
             "result": {
-              "duration": 1630299303,
+              "duration": 1273123428,
               "status": "passed"
             },
             "name": "I click the search button",
@@ -575,7 +575,7 @@
           },
           {
             "result": {
-              "duration": 58723122,
+              "duration": 50347364,
               "status": "passed"
             },
             "name": "I see the results for Java",
@@ -592,7 +592,7 @@
         "after": [
           {
             "result": {
-              "duration": 1307360516,
+              "duration": 1160392575,
               "status": "passed"
             },
             "match": {
@@ -608,7 +608,7 @@
         "steps": [
           {
             "result": {
-              "duration": 8098347385,
+              "duration": 6377215234,
               "status": "passed"
             },
             "name": "\"https://www.google.com.ar/\" is open in \"chrome\" and set the emulation to device \"Google Nexus 10\"",
@@ -639,7 +639,7 @@
           },
           {
             "result": {
-              "duration": 137866555,
+              "duration": 139679226,
               "status": "passed"
             },
             "name": "I type \"kiwi\" in the search field",
@@ -660,7 +660,7 @@
           },
           {
             "result": {
-              "duration": 80800687,
+              "duration": 81171896,
               "status": "passed"
             },
             "name": "I click the search button",
@@ -672,7 +672,7 @@
           },
           {
             "result": {
-              "duration": 48810385,
+              "duration": 48007383,
               "status": "passed"
             },
             "name": "I see the results for Java",
@@ -689,7 +689,7 @@
         "after": [
           {
             "result": {
-              "duration": 1347141185,
+              "duration": 1143017598,
               "status": "passed"
             },
             "match": {
@@ -705,7 +705,7 @@
         "steps": [
           {
             "result": {
-              "duration": 7768200342,
+              "duration": 5951894092,
               "status": "passed"
             },
             "name": "\"https://www.google.com.ar/\" is open in \"chrome\" and set the emulation to device \"Google Nexus 4\"",
@@ -736,7 +736,7 @@
           },
           {
             "result": {
-              "duration": 142840371,
+              "duration": 124856471,
               "status": "passed"
             },
             "name": "I type \"kiwi\" in the search field",
@@ -757,7 +757,7 @@
           },
           {
             "result": {
-              "duration": 1019091880,
+              "duration": 847122870,
               "status": "passed"
             },
             "name": "I click the search button",
@@ -769,7 +769,7 @@
           },
           {
             "result": {
-              "duration": 64708039,
+              "duration": 54793328,
               "status": "passed"
             },
             "name": "I see the results for Java",
@@ -786,7 +786,7 @@
         "after": [
           {
             "result": {
-              "duration": 1168818661,
+              "duration": 1172970179,
               "status": "passed"
             },
             "match": {
@@ -802,7 +802,7 @@
         "steps": [
           {
             "result": {
-              "duration": 7780174280,
+              "duration": 6168622330,
               "status": "passed"
             },
             "name": "\"https://www.google.com.ar/\" is open in \"chrome\" and set the emulation to device \"Google Nexus 5\"",
@@ -833,7 +833,7 @@
           },
           {
             "result": {
-              "duration": 163317743,
+              "duration": 126240754,
               "status": "passed"
             },
             "name": "I type \"compu\" in the search field",
@@ -854,7 +854,7 @@
           },
           {
             "result": {
-              "duration": 2209247536,
+              "duration": 768843109,
               "status": "passed"
             },
             "name": "I click the search button",
@@ -866,7 +866,7 @@
           },
           {
             "result": {
-              "duration": 57369650,
+              "duration": 57170667,
               "status": "passed"
             },
             "name": "I see the results for Java",
@@ -883,7 +883,7 @@
         "after": [
           {
             "result": {
-              "duration": 1412923134,
+              "duration": 1160273524,
               "status": "passed"
             },
             "match": {
@@ -899,7 +899,7 @@
         "steps": [
           {
             "result": {
-              "duration": 8120948358,
+              "duration": 5790167317,
               "status": "passed"
             },
             "name": "\"https://www.google.com.ar/\" is open in \"chrome\" and set the emulation to device \"Google Nexus 7\"",
@@ -930,7 +930,7 @@
           },
           {
             "result": {
-              "duration": 181686705,
+              "duration": 138836011,
               "status": "passed"
             },
             "name": "I type \"kiwi\" in the search field",
@@ -951,7 +951,7 @@
           },
           {
             "result": {
-              "duration": 81594216,
+              "duration": 73810807,
               "status": "passed"
             },
             "name": "I click the search button",
@@ -963,7 +963,7 @@
           },
           {
             "result": {
-              "duration": 50434388,
+              "duration": 45887852,
               "status": "passed"
             },
             "name": "I see the results for Java",
@@ -980,7 +980,7 @@
         "after": [
           {
             "result": {
-              "duration": 1100919680,
+              "duration": 1152841825,
               "status": "passed"
             },
             "match": {
@@ -996,7 +996,7 @@
         "steps": [
           {
             "result": {
-              "duration": 8174373767,
+              "duration": 6544213124,
               "status": "passed"
             },
             "name": "\"https://www.google.com.ar/\" is open in \"chrome\" and set the emulation to device \"Samsung Galaxy Note 3\"",
@@ -1027,7 +1027,7 @@
           },
           {
             "result": {
-              "duration": 146496838,
+              "duration": 123912679,
               "status": "passed"
             },
             "name": "I type \"compu\" in the search field",
@@ -1048,7 +1048,7 @@
           },
           {
             "result": {
-              "duration": 2425759158,
+              "duration": 1875278591,
               "status": "passed"
             },
             "name": "I click the search button",
@@ -1060,7 +1060,7 @@
           },
           {
             "result": {
-              "duration": 59154574,
+              "duration": 80362344,
               "status": "passed"
             },
             "name": "I see the results for Java",
@@ -1077,7 +1077,7 @@
         "after": [
           {
             "result": {
-              "duration": 1134999099,
+              "duration": 1149296959,
               "status": "passed"
             },
             "match": {
@@ -1093,7 +1093,7 @@
         "steps": [
           {
             "result": {
-              "duration": 7997411284,
+              "duration": 5863553643,
               "status": "passed"
             },
             "name": "\"https://www.google.com.ar/\" is open in \"chrome\" and set the emulation to device \"Samsung Galaxy Note II\"",
@@ -1124,7 +1124,7 @@
           },
           {
             "result": {
-              "duration": 148456644,
+              "duration": 129837757,
               "status": "passed"
             },
             "name": "I type \"compu\" in the search field",
@@ -1145,7 +1145,7 @@
           },
           {
             "result": {
-              "duration": 2008935297,
+              "duration": 1879724145,
               "status": "passed"
             },
             "name": "I click the search button",
@@ -1157,7 +1157,7 @@
           },
           {
             "result": {
-              "duration": 56078986,
+              "duration": 86590799,
               "status": "passed"
             },
             "name": "I see the results for Java",
@@ -1174,7 +1174,7 @@
         "after": [
           {
             "result": {
-              "duration": 600477759,
+              "duration": 1138462025,
               "status": "passed"
             },
             "match": {
@@ -1190,7 +1190,7 @@
         "steps": [
           {
             "result": {
-              "duration": 7931992642,
+              "duration": 6214384973,
               "status": "passed"
             },
             "name": "\"https://www.google.com.ar/\" is open in \"chrome\" and set the emulation to device \"Samsung Galaxy S4\"",
@@ -1221,7 +1221,7 @@
           },
           {
             "result": {
-              "duration": 146581815,
+              "duration": 124934470,
               "status": "passed"
             },
             "name": "I type \"compu\" in the search field",
@@ -1242,7 +1242,7 @@
           },
           {
             "result": {
-              "duration": 3677869109,
+              "duration": 846922535,
               "status": "passed"
             },
             "name": "I click the search button",
@@ -1254,7 +1254,7 @@
           },
           {
             "result": {
-              "duration": 93892462,
+              "duration": 55855762,
               "status": "passed"
             },
             "name": "I see the results for Java",

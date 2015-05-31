@@ -63,7 +63,7 @@ public class googletest {
 	@After
 	public void cleanUp() {
 		System.out.println("final papa.");
-		browser.close();
+		browser.quit();
 	}
 
 }
